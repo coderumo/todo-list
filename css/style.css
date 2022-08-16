@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.card-row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-body {
+    margin-top: 0.5rem;
+    background-color: antiquewhite;
+}
+
+.form-row {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}

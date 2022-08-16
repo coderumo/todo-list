@@ -1,0 +1,10 @@
+.form-control {
+    margin-top: 1rem;
+}
+
+.buton {
+    background-color: #74b3e7d5;
+    letter-spacing: 0.04rem;
+    border-width: 0.1rem;
+    border-color: blue;
+}
