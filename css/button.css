@@ -3,8 +3,29 @@
 }
 
 .buton {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     background-color: #74b3e7d5;
     letter-spacing: 0.04rem;
     border-width: 0.1rem;
     border-color: blue;
+    border-radius: 2rem;
+}
+
+.buton:hover {
+    background-color: #5893c4d5;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.1rem;
+}
+
+.btn-buton {
+    color: black;
+    margin-left: 1rem;
+}
+
+.btn-buton:hover {
+    color: blue;
 }
