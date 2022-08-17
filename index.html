@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/header.css">
@@ -21,10 +20,10 @@
                 <form id="todo-form " name="form ">
                     <div class="form-row ">
                         <div class="giris">
-                            <input class="form-control " type="text " placeholder="Bir Todo Girin ">
+                            <input class="form-control" id="todo" type="text " placeholder="Bir Todo Girin ">
                         </div>
                     </div>
-                    <button type="submit " class="buton">Todo Ekleyin</button>
+                    <button type="submit" class="buton">Todo Ekleyin</button>
                 </form>
 
             </div>
@@ -34,12 +33,12 @@
                 <h5>Things to do</h5>
                 <div class="form-row ">
                     <div class="giris">
-                        <input class="form-control " type="text " placeholder="Bir Todo Arayın ">
+                        <input class="form-control" id="filter" type="text " placeholder="Bir Todo Arayın ">
                     </div>
                 </div>
 
                 <hr>
-                <ul class="list-group ">
+                <ul class="list-group">
                     <!-- <li class="list-group-item d-flex justify-content-between ">
                         Todo 1
                         <a href="# " class="delete-item ">
@@ -50,7 +49,7 @@
 
                 </ul>
                 <hr>
-                <a class="btn-buton" href="# ">Tüm Taskları Temizleyin</a>
+                <a id="clear-todos" class="btn-buton" href="# ">Tüm Taskları Temizleyin</a>
             </div>
         </div>
 
