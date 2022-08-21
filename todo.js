@@ -13,7 +13,7 @@ function eventListeners() {
 }
 
 function addTodo(e) {
-    const newTodo = todoInput.value; //hata ne!?!?
+    const newTodo = todoInput.value;
     console.log(newTodo)
     e.preventDefault();
 }
